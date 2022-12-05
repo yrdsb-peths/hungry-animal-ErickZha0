@@ -4,7 +4,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * The Elephant is cool.
  * 
  * @author (Erick ) 
- * @version (a version number or a date)
+ * @version (12/5/2022)
  */
 public class Elephant extends Actor
 {
@@ -14,6 +14,16 @@ public class Elephant extends Actor
      */
     public void act() 
     {
-        move(1);
-    }    
+        
+        if(Greenfoot.isKeyDown("left"))
+        {
+            move(-1);
+        } 
+        else if(Greenfoot.isKeyDown("right"))
+        {
+            move(1);
+        }
+        
+       removeTouching(Apple.class);
+    }
 }
