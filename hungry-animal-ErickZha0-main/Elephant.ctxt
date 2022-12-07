@@ -2,8 +2,11 @@
 comment0.target=Elephant
 comment0.text=\r\n\ The\ Elephant\ is\ cool.\r\n\ \r\n\ @author\ (Erick\ )\ \r\n\ @version\ (12/5/2022)\r\n
 comment1.params=
-comment1.target=void\ act()
-comment1.text=\r\n\ Act\ -\ do\ whatever\ the\ Elephant\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment1.target=Elephant()
 comment2.params=
-comment2.target=void\ eat()
-numComments=3
+comment2.target=void\ animateElephant()
+comment3.params=
+comment3.target=void\ act()
+comment4.params=
+comment4.target=void\ eat()
+numComments=5
