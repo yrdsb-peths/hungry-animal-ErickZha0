@@ -14,11 +14,11 @@ public class Apple extends Actor
      */
     public void act() 
     {
-    
+        // Lowers the apple's position by 2
         int x = getX();
         int y = getY() +2;
         setLocation(x, y);
-        
+        // if the apple is out of the world activate the gameover screen
         MyWorld world = (MyWorld) getWorld();
         if(getY() >= world.getHeight())
         {
