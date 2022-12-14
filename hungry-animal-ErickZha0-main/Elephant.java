@@ -60,7 +60,7 @@ public class Elephant extends Actor
     
     public void act() 
     {
-        
+        // This controls the elephant's movement
         if(Greenfoot.isKeyDown("left"))
         {
             move(-3);
