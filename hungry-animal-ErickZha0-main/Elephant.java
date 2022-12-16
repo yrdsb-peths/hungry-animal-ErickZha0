@@ -79,6 +79,7 @@ public class Elephant extends Actor
     
     public void eat()
     {
+        //if elephant touch apple remove apple.
         if(isTouching(Apple.class))
         {
             removeTouching(Apple.class);
