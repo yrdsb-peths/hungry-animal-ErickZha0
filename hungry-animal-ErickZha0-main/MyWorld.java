@@ -31,12 +31,14 @@ public class MyWorld extends World
     
     public void gameOver()
     {
+        //game ends when apple drops to the bottom of screen.
         Label gameOverLabel = new Label("Game Over", 100);
         addObject(gameOverLabel, 300, 200);
     }
     
     public void increaseScore()
     {
+        //increase score when apple gets eat.
         score++;
         scoreLabel.setValue(score);
     }
